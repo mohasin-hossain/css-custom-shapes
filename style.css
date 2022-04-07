@@ -201,18 +201,64 @@ body > div {
 }
 
 .shape-4 span:nth-child(2) {
-    position: absolute;
-    width: 7rem;
-    height: 7rem;
-    background: #f3ac3c;
-    border-radius: 50%;
-    border: 1rem solid #0b2429;
-} 
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  background: #f3ac3c;
+  border-radius: 50%;
+  border: 1rem solid #0b2429;
+}
 
 .shape-4 span:nth-child(3) {
-    position: absolute;
-    width: 2rem;
-    height: 2rem;
-    background: #0b2429;
-    border-radius: 50%;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background: #0b2429;
+  border-radius: 50%;
+}
+
+/********** 
+   SHAPE 4
+**********/
+
+.shape-5 {
+  background-color: #191919;
+}
+
+.shape-5 div {
+  width: 8rem;
+  height: 12rem;
+  background: #4f77ff;
+  border-radius: 4rem 4rem 0 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.shape-5 div span {
+  background: #191919;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 1rem;
+}
+
+.shape-5 div span:nth-child(1) {
+  width: 1.8rem;
+  margin-bottom: 3.4rem;
+}
+
+.shape-5 div span:nth-child(2) {
+  width: 2.8rem;
+  margin-bottom: 2.3rem;
+}
+
+.shape-5 div span:nth-child(3) {
+  width: 3.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.shape-5 div span:nth-child(4) {
+  width: 4.8rem;
+  margin-bottom: 0.1rem;
 }
