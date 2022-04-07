@@ -110,3 +110,58 @@ body > div {
 .shape-2 div span:nth-child(odd) {
     background-color: #060f55;
 }
+
+/********** 
+   SHAPE 3
+**********/
+
+.shape-3 {
+    background-color: #191919;
+    flex-direction: column;
+}
+
+.shape-3 div:first-child {
+    width: 8rem;
+    height: 7rem;
+    background-color: #4f77ff;
+    border-radius: 4rem 4rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+
+}
+
+.shape-3 div:first-child span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #191919;
+    border-radius: 50%;
+    margin-top: 2.7rem;
+}
+
+.shape-3 div:first-child span:nth-child(2) {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    bottom: -0.6rem;
+}
+
+.shape-3 div:last-child {
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #4f77ff;
+    border-radius: 0 0 1.4rem 1.4rem;
+    display: flex;
+    justify-content: center;
+    gap: .4rem;
+}
+
+.shape-3 div:last-child span {
+    width: .6rem;
+    height: 1rem;
+    background-color: #191919;
+    border-radius: .4rem;
+    margin-top: 1.8rem;
+}
