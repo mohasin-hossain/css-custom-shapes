@@ -84,6 +84,7 @@ body > div {
   background-color: #060f55;
   border-radius: 0 0 5rem 5rem;
   display: flex;
+  margin-top: .5rem;
 }
 
 .shape-2::before {
@@ -293,4 +294,52 @@ body > div {
   border-radius: 0 0 2rem 2rem;
   background: #824b20;
   margin-top: -0.8rem;
+}
+
+/********** 
+   SHAPE 7
+**********/
+
+.shape-7 {
+    background: #060f55;
+}
+
+.shape-7 div {
+    width: 10rem;
+    height: 10rem;
+    background: #fe5f55;
+    border-radius: 5rem 5rem 3rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+    position: relative;
+    overflow: hidden;
+}
+
+.shape-7 span {
+    background: #fff1c1;
+}
+
+.shape-7 span:nth-child(1),
+.shape-7 span:nth-child(2) {
+    width: 5rem;
+    height:5rem;
+    border-radius: 50%;
+    margin-top: -2.4rem;
+}
+
+.shape-7 span:nth-child(3),
+.shape-7 span:nth-child(4) {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.shape-7 span:nth-child(5) {
+    width: 3rem;
+    height: .5rem;
+    position: absolute;
+    border-radius: .2rem;
+    bottom: 1rem;
 }
