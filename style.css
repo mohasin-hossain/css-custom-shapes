@@ -84,7 +84,7 @@ body > div {
   background-color: #060f55;
   border-radius: 0 0 5rem 5rem;
   display: flex;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .shape-2::before {
@@ -301,45 +301,131 @@ body > div {
 **********/
 
 .shape-7 {
-    background: #060f55;
+  background: #293462;
 }
 
 .shape-7 div {
-    width: 10rem;
-    height: 10rem;
-    background: #fe5f55;
-    border-radius: 5rem 5rem 3rem 3rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: start;
-    position: relative;
-    overflow: hidden;
+  width: 10rem;
+  height: 10rem;
+  background: #fe5f55;
+  border-radius: 5rem 5rem 3rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: start;
+  position: relative;
+  overflow: hidden;
 }
 
 .shape-7 span {
-    background: #fff1c1;
+  background: #fff1c1;
 }
 
 .shape-7 span:nth-child(1),
 .shape-7 span:nth-child(2) {
-    width: 5rem;
-    height:5rem;
-    border-radius: 50%;
-    margin-top: -2.4rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-top: -2.4rem;
 }
 
 .shape-7 span:nth-child(3),
 .shape-7 span:nth-child(4) {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 }
 
 .shape-7 span:nth-child(5) {
-    width: 3rem;
-    height: .5rem;
-    position: absolute;
-    border-radius: .2rem;
-    bottom: 1rem;
+  width: 3rem;
+  height: 0.5rem;
+  position: absolute;
+  border-radius: 0.2rem;
+  bottom: 1rem;
+}
+
+/********** 
+   SHAPE 8
+**********/
+
+.shape-8 {
+  background-color: #998235;
+}
+
+.shape-8 div:nth-child(2) {
+  width: 8rem;
+  height: 8rem;
+  background: #1a4341;
+  z-index: 2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.shape-8 div:nth-child(2) span {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #1a4241;
+  border: 0.5rem solid #998235;
+}
+
+.shape-8 div:nth-child(2)::before {
+  content: "";
+  width: 80%;
+  height: 1.2rem;
+  background: #1a4241;
+  position: absolute;
+  top: 35%;
+}
+
+.shape-8 div:nth-child(2)::after {
+  content: "";
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  border: 0.8rem solid transparent;
+  border-top-color: white;
+  border-left-color: white;
+  border-radius: 50%;
+  bottom: -3rem;
+  transform: rotate(45deg);
+}
+
+.shape-8 div:nth-child(1),
+.shape-8 div:nth-child(3) {
+  width: 3rem;
+  height: 8rem;
+  border-radius: 50%;
+  background: #1a4241;
+  position: relative;
+}
+
+.shape-8 div:nth-child(1)::before,
+.shape-8 div:nth-child(3)::before {
+  content: "";
+  width: 80%;
+  height: 100%;
+  background: #0b2429;
+  right: 0;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape-8 div:nth-child(3)::before {
+  left: 0;
+}
+
+.shape-8::before {
+  content: "";
+  width: 1.2rem;
+  height: 42%;
+  background: #0b2429;
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  border-radius: 2rem 2rem 0 0;
 }
